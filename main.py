@@ -1,2 +1,12 @@
+from utilities.init import parse_arguments
+from utilities.utility import analyze_avalanche_effect
+
 if __name__ == '__main__':
-    print()
+    json_file_path, encrypt_method, criteria = parse_arguments()
+
+    # Perform analysis
+    if encrypt_method == 'DES':
+        analyze_avalanche_effect(file_path=json_file_path, encryption=encrypt_method, criteria=criteria)
+
+    if encrypt_method == 'AES':
+        analyze_avalanche_effect(file_path=json_file_path, encryption=encrypt_method, criteria=criteria)
