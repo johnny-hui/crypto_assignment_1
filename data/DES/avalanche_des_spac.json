@@ -1,0 +1,981 @@
+[
+  {
+    "task": "DES Encryption - Encrypting the Original Plaintext",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "1D9A067C",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "1D9A067C",
+        "r2": "D76037FC",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "D76037FC",
+        "r3": "5625A6BF",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "5625A6BF",
+        "r4": "94BDC2B2",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "94BDC2B2",
+        "r5": "9BD2934",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "9BD2934",
+        "r6": "91369DBB",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "91369DBB",
+        "r7": "D02D192D",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "D02D192D",
+        "r8": "AFA3A65F",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "AFA3A65F",
+        "r9": "86B758BB",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "86B758BB",
+        "r10": "DAC79000",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "DAC79000",
+        "r11": "9F2764DE",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "9F2764DE",
+        "r12": "C49D3D8",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "C49D3D8",
+        "r13": "1A01480C",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "1A01480C",
+        "r14": "88256A13",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "88256A13",
+        "r15": "4FEBA15",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "4FEBA15",
+        "r16": "24776E95",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "133CF72C3B7C3429"
+  },
+  {
+    "task": "DES Encryption 1 Bit Change in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "8F3714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FA09DB",
+        "r1": "59930668",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "59930668",
+        "r2": "7039394F",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "7039394F",
+        "r3": "193EC0F3",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "193EC0F3",
+        "r4": "EF20F348",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "EF20F348",
+        "r5": "9B4A6614",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "9B4A6614",
+        "r6": "329A1BFA",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "329A1BFA",
+        "r7": "56966180",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "56966180",
+        "r8": "94708184",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "94708184",
+        "r9": "F38F6D35",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "F38F6D35",
+        "r10": "744C1376",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "744C1376",
+        "r11": "8E17672B",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "8E17672B",
+        "r12": "3EB189A8",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "3EB189A8",
+        "r13": "DF87C4FE",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "DF87C4FE",
+        "r14": "FA4D2B9D",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "FA4D2B9D",
+        "r15": "1A74E60B",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "1A74E60B",
+        "r16": "FABB6D7B",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "17DB2CD7F17D6D58"
+  },
+  {
+    "task": "DES Encryption 2 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "CF3714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FA09DB",
+        "r1": "58930668",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "58930668",
+        "r2": "3038784B",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "3038784B",
+        "r3": "A3B8683A",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "A3B8683A",
+        "r4": "3065612E",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "3065612E",
+        "r5": "C290EEDC",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "C290EEDC",
+        "r6": "93DCF52F",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "93DCF52F",
+        "r7": "5D39F3B9",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "5D39F3B9",
+        "r8": "3A5346CF",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "3A5346CF",
+        "r9": "AB418409",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "AB418409",
+        "r10": "8717F402",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "8717F402",
+        "r11": "AF19C982",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "AF19C982",
+        "r12": "81656E8F",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "81656E8F",
+        "r13": "84E76A36",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "84E76A36",
+        "r14": "1F47FDA0",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "1F47FDA0",
+        "r15": "A7A49C30",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "A7A49C30",
+        "r16": "901580A9",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "9180B8095AA300ED"
+  },
+  {
+    "task": "DES Encryption 3 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "EF3714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB09DB",
+        "r1": "F8D716E8",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "F8D716E8",
+        "r2": "14FE4E2A",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "14FE4E2A",
+        "r3": "B8C8021C",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "B8C8021C",
+        "r4": "A4DA8B7A",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "A4DA8B7A",
+        "r5": "BB4728EF",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "BB4728EF",
+        "r6": "F562F400",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "F562F400",
+        "r7": "E06C50D5",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "E06C50D5",
+        "r8": "2983FEDB",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "2983FEDB",
+        "r9": "A2CA9E78",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "A2CA9E78",
+        "r10": "738ABBEE",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "738ABBEE",
+        "r11": "27A1D2",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "27A1D2",
+        "r12": "A9F5EF9E",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "A9F5EF9E",
+        "r13": "78BDF6DB",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "78BDF6DB",
+        "r14": "4EC7A13C",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "4EC7A13C",
+        "r15": "75F6A769",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "75F6A769",
+        "r16": "97CCEDF9",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "CF68FC17E1AFB77D"
+  },
+  {
+    "task": "DES Encryption 4 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "FF3714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB09DB",
+        "r1": "F8D616E8",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "F8D616E8",
+        "r2": "B5FA4EEA",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "B5FA4EEA",
+        "r3": "FCB21804",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "FCB21804",
+        "r4": "6D5AECF8",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "6D5AECF8",
+        "r5": "9B21F87D",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "9B21F87D",
+        "r6": "3A43A741",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "3A43A741",
+        "r7": "C93F5D1A",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "C93F5D1A",
+        "r8": "D1E02681",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "D1E02681",
+        "r9": "93CEE51B",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "93CEE51B",
+        "r10": "35781150",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "35781150",
+        "r11": "B6C68137",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "B6C68137",
+        "r12": "2DFF865D",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "2DFF865D",
+        "r13": "8CC3E199",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "8CC3E199",
+        "r14": "591DE235",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "591DE235",
+        "r15": "14D6F10F",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "14D6F10F",
+        "r16": "82BC4A4A",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "0A67B217B8182D78"
+  },
+  {
+    "task": "DES Encryption 5 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F73714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB08DB",
+        "r1": "EAC632E1",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "EAC632E1",
+        "r2": "63A4A476",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "63A4A476",
+        "r3": "92326800",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "92326800",
+        "r4": "E7A06452",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "E7A06452",
+        "r5": "C9FB9043",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "C9FB9043",
+        "r6": "E29C907E",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "E29C907E",
+        "r7": "3EED0D27",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "3EED0D27",
+        "r8": "BA1AE62C",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "BA1AE62C",
+        "r9": "68B659D6",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "68B659D6",
+        "r10": "6C2A68EB",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "6C2A68EB",
+        "r11": "D68B6294",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "D68B6294",
+        "r12": "E40CFD49",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "E40CFD49",
+        "r13": "34A253C9",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "34A253C9",
+        "r14": "9498F873",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "9498F873",
+        "r15": "1E0526C3",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "1E0526C3",
+        "r16": "E2159794",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "36CEBD8095484247"
+  },
+  {
+    "task": "DES Encryption 6 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F33714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB08DB",
+        "r1": "EAC633E1",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "EAC633E1",
+        "r2": "71B4A47F",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "71B4A47F",
+        "r3": "9038BC67",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "9038BC67",
+        "r4": "50A59BEF",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "50A59BEF",
+        "r5": "97FC71F6",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "97FC71F6",
+        "r6": "F4F14322",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "F4F14322",
+        "r7": "3AD13D60",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "3AD13D60",
+        "r8": "54CB0D13",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "54CB0D13",
+        "r9": "79D00C7B",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "79D00C7B",
+        "r10": "AA8C1AA2",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "AA8C1AA2",
+        "r11": "2B6CC4E5",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "2B6CC4E5",
+        "r12": "D305902E",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "D305902E",
+        "r13": "2B6BEFA6",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "2B6BEFA6",
+        "r14": "16D8E76B",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "16D8E76B",
+        "r15": "3D5559A",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "3D5559A",
+        "r16": "FA801104",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "ACC229426E406872"
+  },
+ {
+    "task": "DES Encryption 7 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F13714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB08DA",
+        "r1": "EAC639C3",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "EAC639C3",
+        "r2": "40A68857",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "40A68857",
+        "r3": "CFDFCD",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "CFDFCD",
+        "r4": "A390A354",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "A390A354",
+        "r5": "187AE9A3",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "187AE9A3",
+        "r6": "1EFA7273",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "1EFA7273",
+        "r7": "F185EC06",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "F185EC06",
+        "r8": "7DDE2D91",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "7DDE2D91",
+        "r9": "AA503B74",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "AA503B74",
+        "r10": "C2B73B02",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "C2B73B02",
+        "r11": "3CAD4271",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "3CAD4271",
+        "r12": "1846435A",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "1846435A",
+        "r13": "9D7BF3C3",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "9D7BF3C3",
+        "r14": "69CE18F0",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "69CE18F0",
+        "r15": "4B6ED807",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "4B6ED807",
+        "r16": "E879B3",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "87A322BC0D35BC19"
+  },
+ {
+    "task": "DES Encryption 8 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F03714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F9FB08DA",
+        "r1": "EAC639C2",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "EAC639C2",
+        "r2": "40268277",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "40268277",
+        "r3": "37D69B41",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "37D69B41",
+        "r4": "BC9BC75",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "BC9BC75",
+        "r5": "4C53D545",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "4C53D545",
+        "r6": "9950EF10",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "9950EF10",
+        "r7": "467E633A",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "467E633A",
+        "r8": "B1B10A75",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "B1B10A75",
+        "r9": "1DD7F78",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "1DD7F78",
+        "r10": "F9CC106D",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "F9CC106D",
+        "r11": "72D79B7D",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "72D79B7D",
+        "r12": "D5D1CEC6",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "D5D1CEC6",
+        "r13": "3DEBB93B",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "3DEBB93B",
+        "r14": "269773A8",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "269773A8",
+        "r15": "60D35C7E",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "60D35C7E",
+        "r16": "2F0C9B65",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "65665B5E2EC3AB24"
+  },
+ {
+    "task": "DES Encryption 9 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F0B714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "FBFB08DA",
+        "r1": "EAC679D2",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "EAC679D2",
+        "r2": "61348E76",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "61348E76",
+        "r3": "861E33E3",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "861E33E3",
+        "r4": "C9A9AEE",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "C9A9AEE",
+        "r5": "82BF538D",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "82BF538D",
+        "r6": "A2E4B006",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "A2E4B006",
+        "r7": "5138D22F",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "5138D22F",
+        "r8": "9BC5F976",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "9BC5F976",
+        "r9": "81956FC0",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "81956FC0",
+        "r10": "63EB58CC",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "63EB58CC",
+        "r11": "EE858ABF",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "EE858ABF",
+        "r12": "7CD7C0A7",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "7CD7C0A7",
+        "r13": "3444B78",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "3444B78",
+        "r14": "886078F1",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "886078F1",
+        "r15": "90DBB00C",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "90DBB00C",
+        "r16": "9050AFE1",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "25240626F80D31ED"
+  },
+ {
+    "task": "DES Encryption 10 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
+    "plain_text": "F0F714BEB3E4B2E3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "FBFB08DA",
+        "r1": "E8C679D2",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "E8C679D2",
+        "r2": "613CCE76",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "613CCE76",
+        "r3": "15E2327",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "15E2327",
+        "r4": "180DF04C",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "180DF04C",
+        "r5": "A168BB50",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "A168BB50",
+        "r6": "FC433302",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "FC433302",
+        "r7": "D8B85244",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "D8B85244",
+        "r8": "24E9A8C4",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "24E9A8C4",
+        "r9": "4C24B657",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "4C24B657",
+        "r10": "5B174762",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "5B174762",
+        "r11": "C3480974",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "C3480974",
+        "r12": "F6991680",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "F6991680",
+        "r13": "71B22D87",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "71B22D87",
+        "r14": "6D3828C0",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "6D3828C0",
+        "r15": "13DC7E46",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "13DC7E46",
+        "r16": "9601201E",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "90CB6B29E90C2A60"
+  }
+]

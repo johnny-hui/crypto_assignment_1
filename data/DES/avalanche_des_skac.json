@@ -1,0 +1,981 @@
+[
+  {
+    "task": "DES Encryption - Encrypting the Original Plaintext",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "b3775db9107d929a",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "1D9A067C",
+        "round_key": "99199EC41DF2"
+      },
+      "2": {
+        "l2": "1D9A067C",
+        "r2": "D76037FC",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "D76037FC",
+        "r3": "5625A6BF",
+        "round_key": "78BD94E0C669"
+      },
+      "4": {
+        "l4": "5625A6BF",
+        "r4": "94BDC2B2",
+        "round_key": "54AC4FDABE0E"
+      },
+      "5": {
+        "l5": "94BDC2B2",
+        "r5": "9BD2934",
+        "round_key": "63E436BC57B8"
+      },
+      "6": {
+        "l6": "9BD2934",
+        "r6": "91369DBB",
+        "round_key": "EC8DA6197A63"
+      },
+      "7": {
+        "l7": "91369DBB",
+        "r7": "D02D192D",
+        "round_key": "F2A23BF6E830"
+      },
+      "8": {
+        "l8": "D02D192D",
+        "r8": "AFA3A65F",
+        "round_key": "AD9632A12F5E"
+      },
+      "9": {
+        "l9": "AFA3A65F",
+        "r9": "86B758BB",
+        "round_key": "B1F34AC71791"
+      },
+      "10": {
+        "l10": "86B758BB",
+        "r10": "DAC79000",
+        "round_key": "2057F39B236D"
+      },
+      "11": {
+        "l11": "DAC79000",
+        "r11": "9F2764DE",
+        "round_key": "F5595572DB84"
+      },
+      "12": {
+        "l12": "9F2764DE",
+        "r12": "C49D3D8",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "C49D3D8",
+        "r13": "1A01480C",
+        "round_key": "1F55B7EF3889"
+      },
+      "14": {
+        "l14": "1A01480C",
+        "r14": "88256A13",
+        "round_key": "FF01C962737B"
+      },
+      "15": {
+        "l15": "88256A13",
+        "r15": "4FEBA15",
+        "round_key": "1BC2AD37992E"
+      },
+      "16": {
+        "l16": "4FEBA15",
+        "r16": "24776E95",
+        "round_key": "BDACC90E475E"
+      }
+    },
+    "final_ciphertext": "133CF72C3B7C3429"
+  },
+  {
+    "task": "Producing Ciphertext after 1 Bit Change in Key (SKAC) - First 4th Bit Position [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A3775DB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3C9A067C",
+        "round_key": "99199EC01DF2"
+      },
+      "2": {
+        "l2": "3C9A067C",
+        "r2": "93E1B7EE",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "93E1B7EE",
+        "r3": "1330702B",
+        "round_key": "78BD94A0C669"
+      },
+      "4": {
+        "l4": "1330702B",
+        "r4": "896E7032",
+        "round_key": "54AC4FDABE06"
+      },
+      "5": {
+        "l5": "896E7032",
+        "r5": "A8C89AF7",
+        "round_key": "63E436BC47B8"
+      },
+      "6": {
+        "l6": "A8C89AF7",
+        "r6": "769974CF",
+        "round_key": "EC8DA6197A43"
+      },
+      "7": {
+        "l7": "769974CF",
+        "r7": "EC2ACDE3",
+        "round_key": "F2A23BF6E030"
+      },
+      "8": {
+        "l8": "EC2ACDE3",
+        "r8": "386E8542",
+        "round_key": "AD9632A12F4E"
+      },
+      "9": {
+        "l9": "386E8542",
+        "r9": "ADACDC04",
+        "round_key": "B1F34A471791"
+      },
+      "10": {
+        "l10": "ADACDC04",
+        "r10": "DE038225",
+        "round_key": "2057F39B216D"
+      },
+      "11": {
+        "l11": "DE038225",
+        "r11": "FAEDB9A6",
+        "round_key": "F5595562DB84"
+      },
+      "12": {
+        "l12": "FAEDB9A6",
+        "r12": "8B703107",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "8B703107",
+        "r13": "DCE00FC5",
+        "round_key": "1F55B7EF1889"
+      },
+      "14": {
+        "l14": "DCE00FC5",
+        "r14": "EFBCC011",
+        "round_key": "FF01C942737B"
+      },
+      "15": {
+        "l15": "EFBCC011",
+        "r15": "FFDC0F28",
+        "round_key": "1BC2AD37992C"
+      },
+      "16": {
+        "l16": "FFDC0F28",
+        "r16": "3C31627E",
+        "round_key": "BDACC90E465E"
+      }
+    },
+    "final_ciphertext": "988DE9EBF1D7A5A0"
+  },
+  {
+    "task": "Encrypting Ciphertext after 2 Bit Changes in Key (SKAC) - Two 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2775DB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3C9A067C",
+        "round_key": "99199EC01DF2"
+      },
+      "2": {
+        "l2": "3C9A067C",
+        "r2": "93E1B7EE",
+        "round_key": "536E8ADDF1C0"
+      },
+      "3": {
+        "l3": "93E1B7EE",
+        "r3": "1330702B",
+        "round_key": "78BD94A0C669"
+      },
+      "4": {
+        "l4": "1330702B",
+        "r4": "896E7032",
+        "round_key": "54AC4FDABE06"
+      },
+      "5": {
+        "l5": "896E7032",
+        "r5": "A8C89AF7",
+        "round_key": "63E436BC47B8"
+      },
+      "6": {
+        "l6": "A8C89AF7",
+        "r6": "769974CF",
+        "round_key": "EC8DA6197A43"
+      },
+      "7": {
+        "l7": "769974CF",
+        "r7": "EC2ACDE3",
+        "round_key": "F2A23BF6E030"
+      },
+      "8": {
+        "l8": "EC2ACDE3",
+        "r8": "386E8542",
+        "round_key": "AD9632A12F4E"
+      },
+      "9": {
+        "l9": "386E8542",
+        "r9": "ADACDC04",
+        "round_key": "B1F34A471791"
+      },
+      "10": {
+        "l10": "ADACDC04",
+        "r10": "DE038225",
+        "round_key": "2057F39B216D"
+      },
+      "11": {
+        "l11": "DE038225",
+        "r11": "FAEDB9A6",
+        "round_key": "F5595562DB84"
+      },
+      "12": {
+        "l12": "FAEDB9A6",
+        "r12": "8B703107",
+        "round_key": "7E3D15025BF"
+      },
+      "13": {
+        "l13": "8B703107",
+        "r13": "DCE00FC5",
+        "round_key": "1F55B7EF1889"
+      },
+      "14": {
+        "l14": "DCE00FC5",
+        "r14": "EFBCC011",
+        "round_key": "FF01C942737B"
+      },
+      "15": {
+        "l15": "EFBCC011",
+        "r15": "FFDC0F28",
+        "round_key": "1BC2AD37992C"
+      },
+      "16": {
+        "l16": "FFDC0F28",
+        "r16": "3C31627E",
+        "round_key": "BDACC90E465E"
+      }
+    },
+    "final_ciphertext": "988DE9EBF1D7A5A0"
+  },
+  {
+    "task": "Encrypting Ciphertext after 3 Bit Changes in Key (SKAC) - Three 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2675DB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3C9A067C",
+        "round_key": "99199EC01DF2"
+      },
+      "2": {
+        "l2": "3C9A067C",
+        "r2": "91E1B3EF",
+        "round_key": "536E8ADDF180"
+      },
+      "3": {
+        "l3": "91E1B3EF",
+        "r3": "53B23819",
+        "round_key": "78BD94A04669"
+      },
+      "4": {
+        "l4": "53B23819",
+        "r4": "D57127D",
+        "round_key": "54AC4FDABA06"
+      },
+      "5": {
+        "l5": "D57127D",
+        "r5": "A3605F4C",
+        "round_key": "63E436B447B8"
+      },
+      "6": {
+        "l6": "A3605F4C",
+        "r6": "3C62B067",
+        "round_key": "EC8DA6193A43"
+      },
+      "7": {
+        "l7": "3C62B067",
+        "r7": "FE648EDF",
+        "round_key": "F2A23BF6E030"
+      },
+      "8": {
+        "l8": "FE648EDF",
+        "r8": "D6390BCE",
+        "round_key": "AD9632212F4E"
+      },
+      "9": {
+        "l9": "D6390BCE",
+        "r9": "3421448",
+        "round_key": "B1F34A461791"
+      },
+      "10": {
+        "l10": "3421448",
+        "r10": "725369B3",
+        "round_key": "2057F39B216D"
+      },
+      "11": {
+        "l11": "725369B3",
+        "r11": "457BCE44",
+        "round_key": "F5595562DB80"
+      },
+      "12": {
+        "l12": "457BCE44",
+        "r12": "66EACE23",
+        "round_key": "7E3D150253F"
+      },
+      "13": {
+        "l13": "66EACE23",
+        "r13": "5782B6CF",
+        "round_key": "1F55B7EF1888"
+      },
+      "14": {
+        "l14": "5782B6CF",
+        "r14": "D8680E56",
+        "round_key": "FF01C940737B"
+      },
+      "15": {
+        "l15": "D8680E56",
+        "r15": "30E2F94D",
+        "round_key": "1BC2AD37982C"
+      },
+      "16": {
+        "l16": "30E2F94D",
+        "r16": "55E9C80B",
+        "round_key": "BDACC90A465E"
+      }
+    },
+    "final_ciphertext": "5B21421FC8B87E3C"
+  },
+  {
+    "task": "Encrypting Ciphertext after 4 Bit Changes in Key (SKAC) - Four 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2665DB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3C9A067C",
+        "round_key": "99199EC01DF2"
+      },
+      "2": {
+        "l2": "3C9A067C",
+        "r2": "91E1B3EF",
+        "round_key": "536E8ADDF180"
+      },
+      "3": {
+        "l3": "91E1B3EF",
+        "r3": "53B23819",
+        "round_key": "78BD94A04669"
+      },
+      "4": {
+        "l4": "53B23819",
+        "r4": "D57127D",
+        "round_key": "54AC4FDABA06"
+      },
+      "5": {
+        "l5": "D57127D",
+        "r5": "A3605F4C",
+        "round_key": "63E436B447B8"
+      },
+      "6": {
+        "l6": "A3605F4C",
+        "r6": "3C62B067",
+        "round_key": "EC8DA6193A43"
+      },
+      "7": {
+        "l7": "3C62B067",
+        "r7": "FE648EDF",
+        "round_key": "F2A23BF6E030"
+      },
+      "8": {
+        "l8": "FE648EDF",
+        "r8": "D6390BCE",
+        "round_key": "AD9632212F4E"
+      },
+      "9": {
+        "l9": "D6390BCE",
+        "r9": "3421448",
+        "round_key": "B1F34A461791"
+      },
+      "10": {
+        "l10": "3421448",
+        "r10": "725369B3",
+        "round_key": "2057F39B216D"
+      },
+      "11": {
+        "l11": "725369B3",
+        "r11": "457BCE44",
+        "round_key": "F5595562DB80"
+      },
+      "12": {
+        "l12": "457BCE44",
+        "r12": "66EACE23",
+        "round_key": "7E3D150253F"
+      },
+      "13": {
+        "l13": "66EACE23",
+        "r13": "5782B6CF",
+        "round_key": "1F55B7EF1888"
+      },
+      "14": {
+        "l14": "5782B6CF",
+        "r14": "D8680E56",
+        "round_key": "FF01C940737B"
+      },
+      "15": {
+        "l15": "D8680E56",
+        "r15": "30E2F94D",
+        "round_key": "1BC2AD37982C"
+      },
+      "16": {
+        "l16": "30E2F94D",
+        "r16": "55E9C80B",
+        "round_key": "BDACC90A465E"
+      }
+    },
+    "final_ciphertext": "5B21421FC8B87E3C"
+  },
+  {
+    "task": "Encrypting Ciphertext after 5 Bit Changes in Key (SKAC) - Five 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664DB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3E9A067D",
+        "round_key": "99199EC01DB2"
+      },
+      "2": {
+        "l2": "3E9A067D",
+        "r2": "986D335D",
+        "round_key": "536E8A9DF180"
+      },
+      "3": {
+        "l3": "986D335D",
+        "r3": "28EF42A6",
+        "round_key": "78BD94A04661"
+      },
+      "4": {
+        "l4": "28EF42A6",
+        "r4": "A747697A",
+        "round_key": "54AC4FDAAA06"
+      },
+      "5": {
+        "l5": "A747697A",
+        "r5": "A66E103D",
+        "round_key": "63E436B44798"
+      },
+      "6": {
+        "l6": "A66E103D",
+        "r6": "B9386151",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "B9386151",
+        "r7": "38210EC1",
+        "round_key": "F2A23BF6E020"
+      },
+      "8": {
+        "l8": "38210EC1",
+        "r8": "43EA3B16",
+        "round_key": "AD9632202F4E"
+      },
+      "9": {
+        "l9": "43EA3B16",
+        "r9": "8DDF993D",
+        "round_key": "B1F34A461591"
+      },
+      "10": {
+        "l10": "8DDF993D",
+        "r10": "BB75397E",
+        "round_key": "2057F38B216D"
+      },
+      "11": {
+        "l11": "BB75397E",
+        "r11": "BF840BDC",
+        "round_key": "F5595562DB80"
+      },
+      "12": {
+        "l12": "BF840BDC",
+        "r12": "48C0FCD6",
+        "round_key": "7E3D150053F"
+      },
+      "13": {
+        "l13": "48C0FCD6",
+        "r13": "CB417B2C",
+        "round_key": "1F55B7CF1888"
+      },
+      "14": {
+        "l14": "CB417B2C",
+        "r14": "BC3B8433",
+        "round_key": "FF01C9407379"
+      },
+      "15": {
+        "l15": "BC3B8433",
+        "r15": "D97AC36B",
+        "round_key": "1BC2AD33982C"
+      },
+      "16": {
+        "l16": "D97AC36B",
+        "r16": "E401027F",
+        "round_key": "BDACC90A465E"
+      }
+    },
+    "final_ciphertext": "9B2F41A3A163EBC8"
+  },
+  {
+    "task": "Encrypting Ciphertext after 6 Bit Changes in Key (SKAC) - Six 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664CB9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "3E9A067D",
+        "round_key": "99199EC01DB2"
+      },
+      "2": {
+        "l2": "3E9A067D",
+        "r2": "986D335D",
+        "round_key": "536E8A9DF180"
+      },
+      "3": {
+        "l3": "986D335D",
+        "r3": "28EF42A6",
+        "round_key": "78BD94A04661"
+      },
+      "4": {
+        "l4": "28EF42A6",
+        "r4": "A747697A",
+        "round_key": "54AC4FDAAA06"
+      },
+      "5": {
+        "l5": "A747697A",
+        "r5": "A66E103D",
+        "round_key": "63E436B44798"
+      },
+      "6": {
+        "l6": "A66E103D",
+        "r6": "B9386151",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "B9386151",
+        "r7": "38210EC1",
+        "round_key": "F2A23BF6E020"
+      },
+      "8": {
+        "l8": "38210EC1",
+        "r8": "43EA3B16",
+        "round_key": "AD9632202F4E"
+      },
+      "9": {
+        "l9": "43EA3B16",
+        "r9": "8DDF993D",
+        "round_key": "B1F34A461591"
+      },
+      "10": {
+        "l10": "8DDF993D",
+        "r10": "BB75397E",
+        "round_key": "2057F38B216D"
+      },
+      "11": {
+        "l11": "BB75397E",
+        "r11": "BF840BDC",
+        "round_key": "F5595562DB80"
+      },
+      "12": {
+        "l12": "BF840BDC",
+        "r12": "48C0FCD6",
+        "round_key": "7E3D150053F"
+      },
+      "13": {
+        "l13": "48C0FCD6",
+        "r13": "CB417B2C",
+        "round_key": "1F55B7CF1888"
+      },
+      "14": {
+        "l14": "CB417B2C",
+        "r14": "BC3B8433",
+        "round_key": "FF01C9407379"
+      },
+      "15": {
+        "l15": "BC3B8433",
+        "r15": "D97AC36B",
+        "round_key": "1BC2AD33982C"
+      },
+      "16": {
+        "l16": "D97AC36B",
+        "r16": "E401027F",
+        "round_key": "BDACC90A465E"
+      }
+    },
+    "final_ciphertext": "9B2F41A3A163EBC8"
+  },
+ {
+    "task": "Encrypting Ciphertext after 7 Bit Changes in Key (SKAC) - Seven 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664CA9107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "1F9E067D",
+        "round_key": "99199E801DB2"
+      },
+      "2": {
+        "l2": "1F9E067D",
+        "r2": "8C04F30F",
+        "round_key": "536E8A9D7180"
+      },
+      "3": {
+        "l3": "8C04F30F",
+        "r3": "27EB9536",
+        "round_key": "78BD94A04261"
+      },
+      "4": {
+        "l4": "27EB9536",
+        "r4": "32D5F072",
+        "round_key": "54AC4FD2AA06"
+      },
+      "5": {
+        "l5": "32D5F072",
+        "r5": "31A36B50",
+        "round_key": "63E436B40798"
+      },
+      "6": {
+        "l6": "31A36B50",
+        "r6": "71993EAB",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "71993EAB",
+        "r7": "5F7A11E0",
+        "round_key": "F2A23B76E020"
+      },
+      "8": {
+        "l8": "5F7A11E0",
+        "r8": "F4C9F627",
+        "round_key": "AD9632202D4E"
+      },
+      "9": {
+        "l9": "F4C9F627",
+        "r9": "AEED3AD1",
+        "round_key": "B1F34A461591"
+      },
+      "10": {
+        "l10": "AEED3AD1",
+        "r10": "FCB378D7",
+        "round_key": "2057F38B2169"
+      },
+      "11": {
+        "l11": "FCB378D7",
+        "r11": "83E4C3EC",
+        "round_key": "F5595562DB00"
+      },
+      "12": {
+        "l12": "83E4C3EC",
+        "r12": "5B507333",
+        "round_key": "7E3D150053E"
+      },
+      "13": {
+        "l13": "5B507333",
+        "r13": "A3CBB4B0",
+        "round_key": "1F55B7CD1888"
+      },
+      "14": {
+        "l14": "A3CBB4B0",
+        "r14": "FEA94FC5",
+        "round_key": "FF01C9407279"
+      },
+      "15": {
+        "l15": "FEA94FC5",
+        "r15": "E41DCED8",
+        "round_key": "1BC2AD33982C"
+      },
+      "16": {
+        "l16": "E41DCED8",
+        "r16": "320D04FB",
+        "round_key": "BDACC90A461E"
+      }
+    },
+    "final_ciphertext": "3149BC3B63C18B8B"
+  },
+ {
+    "task": "Encrypting Ciphertext after 8 Bit Changes in Key (SKAC) - Eight 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664CA8107D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "1F9E067D",
+        "round_key": "99199E801DB2"
+      },
+      "2": {
+        "l2": "1F9E067D",
+        "r2": "8C04F30F",
+        "round_key": "536E8A9D7180"
+      },
+      "3": {
+        "l3": "8C04F30F",
+        "r3": "27EB9536",
+        "round_key": "78BD94A04261"
+      },
+      "4": {
+        "l4": "27EB9536",
+        "r4": "32D5F072",
+        "round_key": "54AC4FD2AA06"
+      },
+      "5": {
+        "l5": "32D5F072",
+        "r5": "31A36B50",
+        "round_key": "63E436B40798"
+      },
+      "6": {
+        "l6": "31A36B50",
+        "r6": "71993EAB",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "71993EAB",
+        "r7": "5F7A11E0",
+        "round_key": "F2A23B76E020"
+      },
+      "8": {
+        "l8": "5F7A11E0",
+        "r8": "F4C9F627",
+        "round_key": "AD9632202D4E"
+      },
+      "9": {
+        "l9": "F4C9F627",
+        "r9": "AEED3AD1",
+        "round_key": "B1F34A461591"
+      },
+      "10": {
+        "l10": "AEED3AD1",
+        "r10": "FCB378D7",
+        "round_key": "2057F38B2169"
+      },
+      "11": {
+        "l11": "FCB378D7",
+        "r11": "83E4C3EC",
+        "round_key": "F5595562DB00"
+      },
+      "12": {
+        "l12": "83E4C3EC",
+        "r12": "5B507333",
+        "round_key": "7E3D150053E"
+      },
+      "13": {
+        "l13": "5B507333",
+        "r13": "A3CBB4B0",
+        "round_key": "1F55B7CD1888"
+      },
+      "14": {
+        "l14": "A3CBB4B0",
+        "r14": "FEA94FC5",
+        "round_key": "FF01C9407279"
+      },
+      "15": {
+        "l15": "FEA94FC5",
+        "r15": "E41DCED8",
+        "round_key": "1BC2AD33982C"
+      },
+      "16": {
+        "l16": "E41DCED8",
+        "r16": "320D04FB",
+        "round_key": "BDACC90A461E"
+      }
+    },
+    "final_ciphertext": "3149BC3B63C18B8B"
+  },
+  {
+    "task": "Encrypting Ciphertext after 9 Bit Changes in Key (SKAC) - Nine 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664CA8007D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "9F9E163D",
+        "round_key": "991996801DB2"
+      },
+      "2": {
+        "l2": "9F9E163D",
+        "r2": "BBA753AA",
+        "round_key": "536E0A9D7180"
+      },
+      "3": {
+        "l3": "BBA753AA",
+        "r3": "D438A67E",
+        "round_key": "68BD94A04261"
+      },
+      "4": {
+        "l4": "D438A67E",
+        "r4": "FBAA6A91",
+        "round_key": "54AC4FD2AA06"
+      },
+      "5": {
+        "l5": "FBAA6A91",
+        "r5": "8035CD47",
+        "round_key": "63E432B40798"
+      },
+      "6": {
+        "l6": "8035CD47",
+        "r6": "9798450D",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "9798450D",
+        "r7": "3580E1FF",
+        "round_key": "F2A21B76E020"
+      },
+      "8": {
+        "l8": "3580E1FF",
+        "r8": "A7B0548F",
+        "round_key": "2D9632202D4E"
+      },
+      "9": {
+        "l9": "A7B0548F",
+        "r9": "2991DBD",
+        "round_key": "B1F348461591"
+      },
+      "10": {
+        "l10": "2991DBD",
+        "r10": "608DA972",
+        "round_key": "57F38B2169"
+      },
+      "11": {
+        "l11": "608DA972",
+        "r11": "50D9B952",
+        "round_key": "F5595562DB00"
+      },
+      "12": {
+        "l12": "50D9B952",
+        "r12": "E18CEE62",
+        "round_key": "7E3C150053E"
+      },
+      "13": {
+        "l13": "E18CEE62",
+        "r13": "814B8521",
+        "round_key": "1B55B7CD1888"
+      },
+      "14": {
+        "l14": "814B8521",
+        "r14": "31CA9231",
+        "round_key": "FD01C9407279"
+      },
+      "15": {
+        "l15": "31CA9231",
+        "r15": "267AFC36",
+        "round_key": "13C2AD33982C"
+      },
+      "16": {
+        "l16": "267AFC36",
+        "r16": "7241B34F",
+        "round_key": "BCACC90A461E"
+      }
+    },
+    "final_ciphertext": "15E78B296EEE790C"
+  },
+ {
+    "task": "Encrypting Ciphertext after 10 Bit Changes in Key (SKAC) - Ten 4th Bit Positions [Starting from MSB]",
+    "plain_text": "0f3714beb3e4b2e3",
+    "key": "A2664CA8017D929A",
+    "method": "DES",
+    "round": {
+      "1": {
+        "l1": "F8FA09DB",
+        "r1": "9F9E163D",
+        "round_key": "991996801DB2"
+      },
+      "2": {
+        "l2": "9F9E163D",
+        "r2": "BBA753AA",
+        "round_key": "536E0A9D7180"
+      },
+      "3": {
+        "l3": "BBA753AA",
+        "r3": "D438A67E",
+        "round_key": "68BD94A04261"
+      },
+      "4": {
+        "l4": "D438A67E",
+        "r4": "FBAA6A91",
+        "round_key": "54AC4FD2AA06"
+      },
+      "5": {
+        "l5": "FBAA6A91",
+        "r5": "8035CD47",
+        "round_key": "63E432B40798"
+      },
+      "6": {
+        "l6": "8035CD47",
+        "r6": "9798450D",
+        "round_key": "EC8DA6193243"
+      },
+      "7": {
+        "l7": "9798450D",
+        "r7": "3580E1FF",
+        "round_key": "F2A21B76E020"
+      },
+      "8": {
+        "l8": "3580E1FF",
+        "r8": "A7B0548F",
+        "round_key": "2D9632202D4E"
+      },
+      "9": {
+        "l9": "A7B0548F",
+        "r9": "2991DBD",
+        "round_key": "B1F348461591"
+      },
+      "10": {
+        "l10": "2991DBD",
+        "r10": "608DA972",
+        "round_key": "57F38B2169"
+      },
+      "11": {
+        "l11": "608DA972",
+        "r11": "50D9B952",
+        "round_key": "F5595562DB00"
+      },
+      "12": {
+        "l12": "50D9B952",
+        "r12": "E18CEE62",
+        "round_key": "7E3C150053E"
+      },
+      "13": {
+        "l13": "E18CEE62",
+        "r13": "814B8521",
+        "round_key": "1B55B7CD1888"
+      },
+      "14": {
+        "l14": "814B8521",
+        "r14": "31CA9231",
+        "round_key": "FD01C9407279"
+      },
+      "15": {
+        "l15": "31CA9231",
+        "r15": "267AFC36",
+        "round_key": "13C2AD33982C"
+      },
+      "16": {
+        "l16": "267AFC36",
+        "r16": "7241B34F",
+        "round_key": "BCACC90A461E"
+      }
+    },
+    "final_ciphertext": "15E78B296EEE790C"
+  }
+]
