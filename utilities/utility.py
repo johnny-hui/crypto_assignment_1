@@ -142,3 +142,7 @@ def analyze_avalanche_effect(file_path: str, encryption: str, criteria: str):
         bit_diff = analyze_bit_differences(control["final_ciphertext"], experiment["final_ciphertext"])
         print(f"Bit difference: {bit_diff}")
         print("=" * 80)
+
+
+if __name__ == '__main__':
+    print(analyze_bit_differences("0f1571c947d9e8590cb7add6af7f6798", "1E0460D856D9E8590CB7ADD6AF7F6798"))

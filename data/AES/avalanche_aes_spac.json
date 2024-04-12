@@ -1,464 +1,464 @@
 [
   {
     "task": "AES Encryption - Encrypting the Original Plaintext",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "25 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "0E 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "A7 3E B9 48 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "65 74 70 75 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "3F 2D E6 FD 82 CE 6C 1F EE 54 C0 43 54 13 DA 2D"
+        "block_state": "5C 7B B4 9A 6B 72 34 9B 05 A2 31 7F F4 6D 12 94"
       },
       "3": {
-        "block_state": "E6 85 13 27 8A 27 06 45 02 EE 33 FD 89 05 A0 D8"
+        "block_state": "71 15 26 24 48 DC 74 7E 5C DA C7 22 7D A9 BD 9C"
       },
       "4": {
-        "block_state": "49 34 7F EA C4 06 A6 C8 B7 E2 0A BF CB B9 9A 4A"
+        "block_state": "F8 67 AE E8 B4 37 A5 21 0C 24 C1 97 4C FF EA BC"
       },
       "5": {
-        "block_state": "4E 58 63 99 E0 7E 81 7B 2A 37 C1 29 9E 32 7D 63"
+        "block_state": "72 1E B2 00 BA 06 20 6D CB D4 BC E7 04 FA 65 4E"
       },
       "6": {
-        "block_state": "7D 86 3D 35 87 00 4C D2 37 19 11 60 FC 9A FE 8A"
+        "block_state": "0A D9 D8 56 89 F9 F7 7B C1 C5 F7 11 85 E5 FB 14"
       },
       "7": {
-        "block_state": "ED 72 E6 71 CF 76 13 5F 9C 32 ED AB 41 78 FB 4D"
+        "block_state": "DB 18 A8 FF A1 6D 30 D5 F8 8B 08 D7 77 BA 4E AA"
       },
       "8": {
-        "block_state": "6C 94 4D 4F 55 41 E1 CA 58 DB C2 00 AC 2D 44 F9"
+        "block_state": "F9 1B 4F BF E9 34 C9 BF 8F 2F 85 81 2B 08 49 89"
       },
       "9": {
-        "block_state": "BE AF 96 E0 03 17 F3 0F FE 80 09 02 64 65 DC 45"
+        "block_state": "CC A1 04 A1 3E 67 85 00 FF 59 02 5F 3B AF AA 34"
       },
       "10": {
-        "block_state": "1E 19 1F 11 64 0F 8F 3F 6A 84 63 C7 32 70 DF 37"
+        "block_state": "FF 0B 84 4A 08 53 BF 7C 69 34 AB 43 64 14 8F B9"
       }
     },
-    "final_ciphertext": "1E191F11640F8F3F6A8463C73270DF37"
+    "final_ciphertext": "FF0B844A0853BF7C6934AB4364148FB9"
   },
   {
     "task": "AES Encryption 1 Bit Change in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "B51B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "8123456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "A5 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "8E 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "D5 07 80 03 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "1A C6 C2 B8 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "81 72 B9 1C AB E7 17 4D 75 E2 ED D8 CD FD AD 5A"
+        "block_state": "99 94 5B B0 9A 83 3C 62 71 3E D9 0B 9E 21 34 B2"
       },
       "3": {
-        "block_state": "BC 8E 1A 90 B1 A8 13 27 F3 59 61 8E C0 33 73 AA"
+        "block_state": "2A EA EE A7 D0 27 63 CB 85 F2 64 73 01 EC E7 42"
       },
       "4": {
-        "block_state": "77 7A 8E 6F 4E 70 C2 C6 DD 0B 80 19 27 D8 FA 6B"
+        "block_state": "DD D3 BE 12 0D F1 20 A3 B9 55 8B EA 5D 7C 41 AD"
       },
       "5": {
-        "block_state": "88 A6 3C 0D F2 BB 41 56 34 2B F7 D5 A3 A1 11 6D"
+        "block_state": "91 D7 88 1E 1D 8D 4E E9 37 59 84 BD 4E 85 8B AD"
       },
       "6": {
-        "block_state": "4C A8 BD 8F AE 00 FE 0E 65 66 76 46 05 2B 45 1F"
+        "block_state": "45 88 8A 69 D6 35 F7 5A D4 03 53 88 D6 9D 58 4B"
       },
       "7": {
-        "block_state": "5E CF 86 CD 30 D1 82 B2 B1 8E EB E1 65 93 1C 20"
+        "block_state": "14 D2 64 FC 52 7A AE 0E 8A 10 3B 3A FB 64 14 74"
       },
       "8": {
-        "block_state": "94 1E D9 4A 91 0B 4A D6 E6 B0 28 7B 9A 44 29 3B"
+        "block_state": "A2 DC 17 32 FC 31 4C 9C 1A 55 F7 BD 82 77 F9 63"
       },
       "9": {
-        "block_state": "D3 DE E3 39 F7 5D 41 CC 27 1A 04 3F AA DC 3F C4"
+        "block_state": "48 E1 79 C7 D0 D6 E0 F4 B0 53 9F 31 1D 6E 08 38"
       },
       "10": {
-        "block_state": "D6 A5 EC 63 77 60 7C CC 1D 4F E2 FA DD 14 51 35"
+        "block_state": "E6 78 28 55 CA 75 23 88 98 D2 EF 9F 22 DE F9 B1"
       }
     },
-    "final_ciphertext": "D6A5EC6377607CCC1D4FE2FADD145135"
+    "final_ciphertext": "E6782855CA75238898D2EF9F22DEF9B1"
   },
   {
     "task": "AES Encryption 2 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "F51B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "C123456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "E5 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "CE 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "70 D8 5F 79 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "25 54 50 15 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "25 20 EB EA 66 2A 5B CC 77 E4 E9 DA 3A AE 09 FE"
+        "block_state": "B8 09 C6 0C AF B6 63 08 07 A4 35 7D 39 12 A0 26"
       },
       "3": {
-        "block_state": "07 87 C1 F5 94 BC AD 87 FF 38 3F 72 47 8D 6A BF"
+        "block_state": "AB 09 C8 A0 BE 01 99 A2 02 EA 82 4F 92 57 9A E9"
       },
       "4": {
-        "block_state": "E0 9E 51 FA C5 13 74 B5 53 99 DC DD B0 A4 CE 11"
+        "block_state": "61 ED 7F 04 28 FB 77 9B 23 FA 0A CE B4 6C C3 7D"
       },
       "5": {
-        "block_state": "62 CA 8E B7 8C D7 CE A4 BD 75 DB 83 3F E4 A1 5C"
+        "block_state": "14 3A 02 4C 3E 00 70 DD 75 33 6E 2D CC E8 E9 9C"
       },
       "6": {
-        "block_state": "00 0B 14 E4 15 80 86 02 46 47 A3 A2 EC 03 50 03"
+        "block_state": "7A 9F 89 8C 9A 0D 42 FD A2 0D 5F 9B 4B DE B3 48"
       },
       "7": {
-        "block_state": "AA 2F D0 E2 D8 0C F8 F4 46 D1 12 71 8B 85 15 02"
+        "block_state": "67 63 ED 81 BB E3 FE 56 98 7E 86 F9 C4 03 AD 5B"
       },
       "8": {
-        "block_state": "DC D1 F6 36 D2 51 F6 D1 B8 60 1A A2 C9 BC 8F D0"
+        "block_state": "17 74 12 93 AB A4 9E 8C 2E 3D F5 EF 30 00 31 75"
       },
       "9": {
-        "block_state": "91 A6 27 9D C3 B5 9B CC C5 55 35 80 3B 9D 08 85"
+        "block_state": "A6 C3 90 4E B8 B4 4F F9 AF 06 3D 5F 88 92 BB 66"
       },
       "10": {
-        "block_state": "31 3C 88 E8 31 3E 39 80 77 97 3F FA 93 2D C6 8D"
+        "block_state": "90 03 D4 61 D6 F7 F9 61 06 02 39 B9 42 08 9C B9"
       }
     },
-    "final_ciphertext": "313C88E8313E398077973FFA932DC68D"
+    "final_ciphertext": "9003D461D6F7F961060239B942089CB9"
   },
   {
     "task": "AES Encryption 3 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "D51B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "E123456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "C5 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "EE 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "8E A7 20 F8 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "78 F7 F3 EB 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "B5 68 A3 32 91 DD 59 39 0F 6C 19 A2 7D D4 34 C3"
+        "block_state": "A5 8A 45 92 1F 06 A8 73 59 46 89 23 E1 82 E8 6E"
       },
       "3": {
-        "block_state": "FB F5 24 0F 1D F3 E3 39 B7 9F 26 11 2B 6D AF E4"
+        "block_state": "45 1A 59 DE 28 A2 0D 63 0E 81 23 38 3C D1 0D 23"
       },
       "4": {
-        "block_state": "34 78 4F 97 46 2B 73 B8 DE 33 91 22 5C 59 20 08"
+        "block_state": "BE 0A 17 13 13 20 A4 2B CD 48 AD 6E A3 5D 28 0D"
       },
       "5": {
-        "block_state": "B1 8B 38 53 81 90 93 FB 37 DC D3 36 F3 49 77 BE"
+        "block_state": "9F 35 7C 95 B8 16 F8 66 BB 13 99 74 27 C0 03 A8"
       },
       "6": {
-        "block_state": "4D 2B 8A 20 6B C8 AC EE 33 67 E7 59 79 F9 EF 5C"
+        "block_state": "39 79 4A 82 82 18 ED 59 BA 63 CA BB 3E 0F DC 48"
       },
       "7": {
-        "block_state": "71 6D 01 A0 A9 31 81 90 89 5F 9B 19 2A C7 0E 7C"
+        "block_state": "D9 89 32 03 1E 41 2D 99 4C 6A 7B 8F F6 AD 2A AB"
       },
       "8": {
-        "block_state": "33 B7 C8 0D 2F 6F C2 EF 79 F4 D4 46 23 96 7D 29"
+        "block_state": "FF 0F 17 19 8F 22 8E 50 F0 50 79 78 E1 A9 D0 67"
       },
       "9": {
-        "block_state": "AF E1 B0 70 77 96 3A 6B 25 7A 6D 73 73 9A 0A A3"
+        "block_state": "4C 62 24 C5 B9 87 47 19 0B BC 1B 64 2D E8 22 49"
       },
       "10": {
-        "block_state": "C9 79 22 75 EA 18 6E 8F EE 71 14 CE FE F1 52 CF"
+        "block_state": "9D 99 5C 69 EC FD 80 E8 54 D6 6F F4 5E 8C B8 35"
       }
     },
-    "final_ciphertext": "C9792275EA186E8FEE7114CEFEF152CF"
+    "final_ciphertext": "9D995C69ECFD80E854D66FF45E8CB835"
   },
   {
     "task": "AES Encryption 4 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "C51B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "F123456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "D5 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "FE 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "DF 02 85 0C 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "45 64 60 45 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "A0 EF 24 A0 2E 62 83 5C 2F 0C 59 82 00 82 1F E8"
+        "block_state": "1A 58 97 FF 98 81 3A 66 84 3A 28 FE 9C D4 C3 45"
       },
       "3": {
-        "block_state": "86 82 80 55 94 B4 08 19 F8 56 8E 63 B3 9E 9C B4"
+        "block_state": "D1 27 AB 20 A6 16 CB 2F 8A 2E E4 41 93 84 07 3E"
       },
       "4": {
-        "block_state": "33 E5 74 F7 C2 01 4F EB 71 65 F2 5A 23 2E 80 91"
+        "block_state": "42 E5 03 E2 CC D6 48 7B 98 51 79 05 33 71 6D E1"
       },
       "5": {
-        "block_state": "29 F8 B6 D9 6C 86 AD 55 D6 32 2F 12 A2 DF 1F 3E"
+        "block_state": "4F 7F 88 34 A7 C0 69 66 27 7B EB BD 98 B7 45 BE"
       },
       "6": {
-        "block_state": "94 87 01 F8 CA 42 4C 31 A5 72 B2 FC 16 21 79 B3"
+        "block_state": "F0 A2 52 41 21 9D FD 24 17 04 4C 16 AD 36 5A FA"
       },
       "7": {
-        "block_state": "3B E6 30 D1 74 E6 9C D6 59 BB 14 EE 21 49 FF DC"
+        "block_state": "D2 72 64 EA 6A 65 11 BA FA 14 A7 C7 9B 27 6F 0E"
       },
       "8": {
-        "block_state": "12 DB A6 5E A1 66 BE 13 53 67 14 40 F0 60 77 82"
+        "block_state": "19 46 E3 B8 CD 92 83 96 69 5C CA 79 90 71 11 51"
       },
       "9": {
-        "block_state": "09 BD 9F 30 F2 54 B9 37 3D 4C 08 4D D4 C5 48 7B"
+        "block_state": "3A 0A 59 2E 5F CE BC D0 53 D2 99 F7 8D 26 79 37"
       },
       "10": {
-        "block_state": "B1 C9 2E 5E 96 EB 5B DA F6 6F 28 2B 39 73 84 A3"
+        "block_state": "34 05 1D C8 75 2D A5 7F 92 BA 92 50 DB 41 7D 1E"
       }
     },
-    "final_ciphertext": "B1C92E5E96EB5BDAF66F282B397384A3"
+    "final_ciphertext": "34051DC8752DA57F92BA9250DB417D1E"
   },
   {
     "task": "AES Encryption 5 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "CD1B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "F923456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "DD 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F6 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "40 C0 47 51 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "AC 9D 99 55 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "95 78 B3 02 01 4D F2 02 18 55 37 B5 4C 03 D2 25"
+        "block_state": "FF A7 68 E5 0A 13 97 59 BA 78 54 C0 BB EE DE 58"
       },
       "3": {
-        "block_state": "27 8D 56 5B EA F5 0F 8C 4D EE AF F9 21 7B 2E FB"
+        "block_state": "21 49 4A 8A 5C D5 FA C6 52 F1 BD E1 A8 C5 16 5E"
       },
       "4": {
-        "block_state": "67 99 CA 60 09 62 E2 F8 9C A7 49 8A EE 8A 74 F6"
+        "block_state": "EA 71 87 24 F0 D7 E9 52 61 A0 75 93 44 B7 6D F0"
       },
       "5": {
-        "block_state": "B5 07 07 EA F0 D9 F5 1C B3 48 29 77 3B 5B 45 9C"
+        "block_state": "4E 36 11 E9 CF CB 76 42 3D 53 F3 79 46 F8 BD 8E"
       },
       "6": {
-        "block_state": "3B B2 CF 71 E6 27 6B EE 91 5A 23 A6 65 43 87 4F"
+        "block_state": "1A D8 4D 93 CB F2 C5 91 A0 F1 E2 A0 FA 0B 47 4B"
       },
       "7": {
-        "block_state": "63 27 12 B2 C1 E1 FC 43 67 07 A9 A8 97 6D DE 87"
+        "block_state": "C3 BF 5D D9 01 5C 7D 74 FC D1 86 4F 48 83 81 21"
       },
       "8": {
-        "block_state": "02 C4 33 13 1D C6 76 00 E7 87 F3 9B 58 C9 B9 FE"
+        "block_state": "73 AD B5 BD 70 3A A7 0B 41 F6 C3 26 FB 62 23 2A"
       },
       "9": {
-        "block_state": "A3 BC B0 D2 EE 26 8F ED 21 03 8B 10 7C CE 1B 43"
+        "block_state": "A8 0E 25 3E 36 D3 31 7F C3 56 AF D9 E8 46 61 7B"
       },
       "10": {
-        "block_state": "BA 1E 23 65 37 B9 A6 6B 2C 42 14 E4 61 6C A1 8A"
+        "block_state": "76 E8 8A 73 BF 29 FC FC 51 17 66 F2 1D 8D DF 43"
       }
     },
-    "final_ciphertext": "BA1E236537B9A66B2C4214E4616CA18A"
+    "final_ciphertext": "76E88A73BF29FCFC511766F21D8DDF43"
   },
   {
     "task": "AES Encryption 6 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "C91B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "FD23456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "D9 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F2 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "B3 34 B3 56 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "21 56 52 13 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "5D 1C D7 AE 61 2D 52 C2 D5 19 B6 78 B1 5C 70 87"
+        "block_state": "27 CB 04 51 8B 92 0F 40 54 51 93 2E 91 2B 31 B7"
       },
       "3": {
-        "block_state": "5A D2 C0 4E D8 92 C9 D3 68 D5 00 E6 78 33 5D B8"
+        "block_state": "E7 2B 1F AC 8D 28 7A 8F E4 8C 98 77 CE BA 5F 53"
       },
       "4": {
-        "block_state": "1A EF 80 83 C8 43 EF B3 FF C1 1D 96 F3 F1 A9 58"
+        "block_state": "E8 87 65 E5 ED 3D 1A E3 94 90 30 F9 69 7E 0C 0C"
       },
       "5": {
-        "block_state": "87 C9 CD FC 28 87 FE 21 D7 D9 23 0A 8B 3B F6 42"
+        "block_state": "E6 BA 9B 99 D0 BB 9A B5 19 D5 E3 17 A7 F3 47 31"
       },
       "6": {
-        "block_state": "B3 58 3F 72 3F 12 B5 18 38 7D C8 62 27 D9 57 4F"
+        "block_state": "85 72 58 25 27 4A 75 4B E6 C2 7A 9D 38 29 61 BC"
       },
       "7": {
-        "block_state": "A7 EB 1F F3 40 AF E0 85 7B 40 71 F8 4D 3D C4 EF"
+        "block_state": "DC 24 D2 2C 87 AE 8A 0C 12 0A 39 9E FA 18 25 22"
       },
       "8": {
-        "block_state": "77 22 B6 9B 8B 0D 87 2A 1D 83 D2 7F 33 98 CB 2A"
+        "block_state": "E9 D6 AD 7A 3A F2 3F 54 E5 71 A6 CD 49 76 F1 11"
       },
       "9": {
-        "block_state": "FF 75 D8 28 F1 E0 C4 3D FC 14 B0 41 56 D5 32 94"
+        "block_state": "E7 F4 00 5B 90 E9 EF 2A 91 F8 FA F3 46 85 BA F9"
       },
       "10": {
-        "block_state": "A6 08 F9 5D BE 38 2A EA 61 CA 92 96 C0 94 CE C3"
+        "block_state": "20 90 DE CB DA D9 E7 77 FE DA 3A C5 DC 99 C7 7B"
       }
     },
-    "final_ciphertext": "A608F95DBE382AEA61CA9296C094CEC3"
+    "final_ciphertext": "2090DECBDAD9E777FEDA3AC5DC99C77B"
   },
  {
     "task": "AES Encryption 7 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "CB1B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "FF23456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "DB 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F0 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "B0 B8 3F D9 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "2B 53 57 1C 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "52 96 5D 2B E5 A9 C5 D1 CD 31 86 60 2D B4 04 F3"
+        "block_state": "3F C7 08 45 6A 73 37 99 0F BC 25 75 75 93 6D EB"
       },
       "3": {
-        "block_state": "CF 8C BD AF 37 69 8E 13 04 23 D0 8C 86 A6 A2 FA"
+        "block_state": "76 77 7B DF 70 CD C6 E4 1A 3A 4E B7 C6 8C B6 01"
       },
       "4": {
-        "block_state": "E1 D8 E7 F8 6A 3E 27 5A 63 E3 FB 45 5E 0D 36 91"
+        "block_state": "D3 08 3A D3 4C 75 FA 8C 49 42 9C FA 29 A7 0F 9F"
       },
       "5": {
-        "block_state": "90 D5 54 DC 27 73 26 FA 06 E0 64 B4 15 C2 22 F7"
+        "block_state": "2D 78 1C AF CB 63 7B 90 79 B0 4B B4 4D DF FE 0E"
       },
       "6": {
-        "block_state": "CF EF D6 9E 54 07 7A 62 E5 E5 24 20 30 24 50 BE"
+        "block_state": "D4 97 F4 B4 42 4C 6A 30 B1 AB 44 51 61 CB 38 4D"
       },
       "7": {
-        "block_state": "92 47 2D 47 C3 E5 5E C2 5D 01 B8 0F 10 88 80 2C"
+        "block_state": "24 C0 FA 7F CF 51 2B E7 29 F0 B6 4E 62 4E AA 53"
       },
       "8": {
-        "block_state": "CB 8E 69 86 26 05 80 A6 53 A9 A1 4C 34 C4 9B CF"
+        "block_state": "EF 96 12 24 0D AF 8A CD 52 DB DD B7 78 5C 93 C8"
       },
       "9": {
-        "block_state": "07 01 2A E8 64 19 D7 EC F6 EA 8E EE 5F 8F DA 5F"
+        "block_state": "FA 90 5E C2 81 E1 77 77 6F BC 55 8C E6 C7 71 2E"
       },
       "10": {
-        "block_state": "75 3D 07 B0 5C 45 5E 45 93 BA 16 7F BE 75 DC 68"
+        "block_state": "99 76 0F 63 B6 FD B0 6B D7 8B 01 D5 08 46 ED 12"
       }
     },
-    "final_ciphertext": "753D07B05C455E4593BA167FBE75DC68"
+    "final_ciphertext": "99760F63B6FDB06BD78B01D50846ED12"
   },
  {
     "task": "AES Encryption 8 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "CA1B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "FE23456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "DA 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F1 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "77 56 D1 F0 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "71 7E 7A 6B 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "76 84 4F 1D 5C 10 15 B8 86 EC 10 2B 51 15 D9 2E"
+        "block_state": "9B 95 5A B3 89 90 09 44 8E 24 3C F4 57 AF 73 F5"
       },
       "3": {
-        "block_state": "26 33 DF 08 83 EF 7E D9 10 78 80 24 00 11 E2 93"
+        "block_state": "45 BB 57 59 64 03 48 F6 4B 78 87 DC C7 1D D7 63"
       },
       "4": {
-        "block_state": "3D C4 D5 1D D8 D3 4F 6A 4E F3 6E DF 5A 08 8F 11"
+        "block_state": "91 06 48 C2 39 8A AB 6C 61 6D C4 25 25 F5 C4 AE"
       },
       "5": {
-        "block_state": "C1 11 61 E4 56 57 81 E4 AC FF BD C0 FD F6 22 08"
+        "block_state": "3B 20 C6 C2 A4 85 41 21 F9 52 C6 D3 DE 38 93 8F"
       },
       "6": {
-        "block_state": "F9 57 80 EB 43 60 DA D7 20 DB F4 19 7E 11 68 BD"
+        "block_state": "CB A4 DF 3A E7 3A F1 F2 EA 48 1E B0 D2 35 B4 30"
       },
       "7": {
-        "block_state": "D6 2A 45 5D E3 C7 15 25 D9 F5 E3 61 9C 83 57 E1"
+        "block_state": "E4 82 E4 93 73 01 BB 94 9B 58 BE 36 1B 45 36 B3"
       },
       "8": {
-        "block_state": "77 07 B5 3D 97 58 3D 28 75 5B A9 6D 4B C0 78 9E"
+        "block_state": "DD 33 A0 93 91 93 32 91 1A 92 64 0D A3 17 77 21"
       },
       "9": {
-        "block_state": "AB 50 80 34 74 29 AC E9 DB A9 30 D4 92 B7 5D A5"
+        "block_state": "A5 57 C5 ED EF D1 A0 9D F0 36 5B 9A 47 4E AC 1D"
       },
       "10": {
-        "block_state": "D2 4C 1A 79 8D 11 45 C6 68 60 3E AF 3E 5A 43 08"
+        "block_state": "B2 B0 CA F6 65 9D 82 1B F3 62 FF 7E 26 7D F8 CE"
       }
     },
-    "final_ciphertext": "D24C1A798D1145C668603EAF3E5A4308"
+    "final_ciphertext": "B2B0CAF6659D821BF362FF7E267DF8CE"
   },
   {
     "task": "AES Encryption 9 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "CA9B1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "FEA3456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "DA B7 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F1 B6 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "77 56 D1 F0 3D 4E 52 51 4A 8F 12 2B A5 15 71 43"
+        "block_state": "71 7E 7A 6B 0F C7 FF 3F C0 E8 E8 CA 90 46 61 D7"
       },
       "2": {
-        "block_state": "3D CF 92 8B D3 9A 10 37 E7 5B C6 FD 5E 9F 53 AB"
+        "block_state": "4B 45 31 08 83 8E 1D 4E F0 70 16 DE 4A 2C F0 6B"
       },
       "3": {
-        "block_state": "A3 19 BB 83 98 DC BE AB 0B 07 5E F1 5B 22 77 04"
+        "block_state": "AE 98 7A 57 05 DE 85 F5 2F 42 B4 61 0D 4E B2 51"
       },
       "4": {
-        "block_state": "8C 01 32 91 AD E0 39 38 87 FB 8F 2C 1D 0C DA 80"
+        "block_state": "84 DF F5 EF 6B 42 CA 86 95 FA 07 8D 44 9A 53 26"
       },
       "5": {
-        "block_state": "76 27 B7 D4 A2 EE 50 8F B0 25 04 6C 10 62 45 15"
+        "block_state": "A0 39 D6 16 46 38 D1 99 2A F8 12 45 EA BD CC C0"
       },
       "6": {
-        "block_state": "0D 1B 03 02 E9 84 FA C7 B3 B6 C8 19 3E 18 23 DA"
+        "block_state": "D0 D3 F7 58 F7 6B 30 D5 C4 1B AE 2D BC 2A F2 8D"
       },
       "7": {
-        "block_state": "BA B5 5D 0D 14 0D 99 9A 79 78 22 06 63 BF 16 AC"
+        "block_state": "EF F0 A8 F9 62 FA 97 BD 5F AE 24 0A 4B 00 D9 2C"
       },
       "8": {
-        "block_state": "AB D3 02 7A 33 B8 02 65 FA EA 18 20 66 C7 83 6D"
+        "block_state": "DD 88 48 A3 27 A4 36 CA 53 ED 17 6D 21 EA 96 3C"
       },
       "9": {
-        "block_state": "DD 7E B4 80 96 08 E5 3B FF 65 28 33 AC 11 58 C0"
+        "block_state": "A4 BE 17 E7 E8 D1 5C 82 B0 AF 18 7F 76 36 36 F3"
       },
       "10": {
-        "block_state": "71 D9 2A C5 8F 8F 63 13 C7 4B 7E 53 E0 FA 0B 83"
+        "block_state": "FD B0 5E 5F 21 E1 16 DA 98 48 A9 33 BE 88 52 A4"
       }
     },
-    "final_ciphertext": "71D92AC58F8F6313C74B7E53E0FA0B83"
+    "final_ciphertext": "FDB05E5F21E116DA9848A933BE8852A4"
   },
  {
     "task": "AES Encryption 10 Bit Changes in Plaintext (SPAC) - [Starting from MSB]",
-    "plain_text": "CADB1E9868ACB846CAA012D65A9F1A87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "FEE3456789ABCDEFFEDCBA9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "DA F7 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "F1 F6 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "77 56 D1 F0 3D 4E 52 51 4A 8F 12 2B FD 8C B0 82"
+        "block_state": "71 7E 7A 6B 0F C7 FF 3F C0 E8 E8 CA 84 5E 6D DB"
       },
       "2": {
-        "block_state": "34 C6 89 99 97 56 98 73 A0 21 FB C0 FA CD 01 5D"
+        "block_state": "FC F2 F3 7D 50 E0 A0 9D F6 74 14 DC 34 13 CF 2A"
       },
       "3": {
-        "block_state": "53 CC 92 2C 4A DA C3 6A B4 89 B8 C9 91 4A 16 EE"
+        "block_state": "9C 36 55 38 F7 39 BF 6F 07 A0 6A 0C 67 02 A5 96"
       },
       "4": {
-        "block_state": "DF D9 19 E9 1F E4 08 62 DA 43 9D FD 30 76 62 B4"
+        "block_state": "2F 30 06 A3 4F CD 83 C6 AE BE 11 04 AB E5 54 2E"
       },
       "5": {
-        "block_state": "77 E1 5F E4 55 12 4B BD 3B 5D 9B DC 97 13 87 CF"
+        "block_state": "1D 45 D2 89 2D 47 4C 70 77 84 BF 1F 9A F7 EE 0C"
       },
       "6": {
-        "block_state": "81 ED 96 F4 B3 0E DE DE B4 A5 CD B5 D0 DF EF 7F"
+        "block_state": "2F DE 41 7A 49 90 51 EE 2E 55 F0 29 FF 7A 76 E0"
       },
       "7": {
-        "block_state": "C0 E7 4C CB 1B 36 08 35 C7 03 4A 48 D8 C3 4D 39"
+        "block_state": "D0 AF DD 42 30 77 25 D1 84 F0 86 FF 88 9C E7 ED"
       },
       "8": {
-        "block_state": "9C 6E 8A 22 A7 47 80 72 3B 57 F6 AF 69 9B B8 3D"
+        "block_state": "BD 3E B7 AB CC 97 6D 9B F3 5D F0 F0 0D DF F2 05"
       },
       "9": {
-        "block_state": "05 70 2C 4A 05 E6 66 4F 13 03 30 B8 47 29 4D 41"
+        "block_state": "6D 98 0E 97 A7 27 48 C0 DB 0B AC 66 31 0B D3 B9"
       },
       "10": {
-        "block_state": "DB 67 1A FC 74 B9 EA 08 AC 6C 82 35 D1 58 E1 2C"
+        "block_state": "88 42 62 04 E6 B3 75 C6 C6 66 F2 9A 41 60 4A 45"
       }
     },
-    "final_ciphertext": "DB671AFC74B9EA08AC6C8235D158E12C"
+    "final_ciphertext": "88426204E6B375C6C666F29A41604A45"
   }
 ]

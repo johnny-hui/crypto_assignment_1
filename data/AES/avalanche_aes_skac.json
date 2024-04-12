@@ -1,464 +1,464 @@
 [
   {
     "task": "AES Encryption - Encrypting the Original Plaintext",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "102cce015fe1f4f83a92b21f4c387a64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "0f1571c947d9e8590cb7add6af7f6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "25 37 D0 99 37 4D 4C BE F0 32 A0 C9 16 A7 60 E3"
+        "block_state": "0E 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "A7 3E B9 48 3D 4E 52 51 4A 8F 12 2B F0 73 42 70"
+        "block_state": "65 74 70 75 0F C7 FF 3F C0 E8 E8 CA 4D D0 2A 9C"
       },
       "2": {
-        "block_state": "3F 2D E6 FD 82 CE 6C 1F EE 54 C0 43 54 13 DA 2D"
+        "block_state": "5C 7B B4 9A 6B 72 34 9B 05 A2 31 7F F4 6D 12 94"
       },
       "3": {
-        "block_state": "E6 85 13 27 8A 27 06 45 02 EE 33 FD 89 05 A0 D8"
+        "block_state": "71 15 26 24 48 DC 74 7E 5C DA C7 22 7D A9 BD 9C"
       },
       "4": {
-        "block_state": "49 34 7F EA C4 06 A6 C8 B7 E2 0A BF CB B9 9A 4A"
+        "block_state": "F8 67 AE E8 B4 37 A5 21 0C 24 C1 97 4C FF EA BC"
       },
       "5": {
-        "block_state": "4E 58 63 99 E0 7E 81 7B 2A 37 C1 29 9E 32 7D 63"
+        "block_state": "72 1E B2 00 BA 06 20 6D CB D4 BC E7 04 FA 65 4E"
       },
       "6": {
-        "block_state": "7D 86 3D 35 87 00 4C D2 37 19 11 60 FC 9A FE 8A"
+        "block_state": "0A D9 D8 56 89 F9 F7 7B C1 C5 F7 11 85 E5 FB 14"
       },
       "7": {
-        "block_state": "ED 72 E6 71 CF 76 13 5F 9C 32 ED AB 41 78 FB 4D"
+        "block_state": "DB 18 A8 FF A1 6D 30 D5 F8 8B 08 D7 77 BA 4E AA"
       },
       "8": {
-        "block_state": "6C 94 4D 4F 55 41 E1 CA 58 DB C2 00 AC 2D 44 F9"
+        "block_state": "F9 1B 4F BF E9 34 C9 BF 8F 2F 85 81 2B 08 49 89"
       },
       "9": {
-        "block_state": "BE AF 96 E0 03 17 F3 0F FE 80 09 02 64 65 DC 45"
+        "block_state": "CC A1 04 A1 3E 67 85 00 FF 59 02 5F 3B AF AA 34"
       },
       "10": {
-        "block_state": "1E 19 1F 11 64 0F 8F 3F 6A 84 63 C7 32 70 DF 37"
+        "block_state": "FF 0B 84 4A 08 53 BF 7C 69 34 AB 43 64 14 8F B9"
       }
     },
-    "final_ciphertext": "1E191F11640F8F3F6A8463C73270DF37"
+    "final_ciphertext": "FF0B844A0853BF7C6934AB4364148FB9"
   },
   {
     "task": "Producing Ciphertext after 1 Bit Change in Key (SKAC) - First 4th Bit Position [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "2CCE015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1F1571C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "19 D5 1F C7 89 58 40 7C 58 12 0D 9A 62 E5 7E 87"
+        "block_state": "1E 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "3A F8 50 AC 36 9F 58 3D F0 43 9D A9 47 BE 89 AA"
+        "block_state": "DC AD A9 05 1F C7 FF 3F D0 E8 E8 CA 5D D0 2A 9C"
       },
       "2": {
-        "block_state": "A2 16 5B 60 39 5E 2B D4 31 DE A1 4D 32 39 F6 32"
+        "block_state": "C1 B0 7F EF EA 32 83 9E 18 F5 E4 8B B8 CC BA 4A"
       },
       "3": {
-        "block_state": "8C 1F FF 22 BB D2 B5 CD 57 CB 66 87 0B 1B 17 3F"
+        "block_state": "FA FC 65 7F 96 A7 D1 42 12 0C BB 56 8A 05 23 05"
       },
       "4": {
-        "block_state": "0F 58 73 10 E2 CD AE 38 1D 33 13 94 B3 34 C0 D6"
+        "block_state": "03 05 34 D5 73 3E 41 69 A7 44 BD AE FB F8 A7 25"
       },
       "5": {
-        "block_state": "86 01 0B 6D 57 FC 44 4A 4B 55 92 C0 66 17 33 43"
+        "block_state": "F9 AA 18 E3 55 B0 43 B6 4A 41 A6 B9 57 E3 08 97"
       },
       "6": {
-        "block_state": "E1 9F CD DB F3 57 C2 79 96 22 EA DF 9A 26 B3 1E"
+        "block_state": "19 ED AB 7C D0 0B 58 F7 3B B3 BB D5 DA C5 90 DE"
       },
       "7": {
-        "block_state": "9E 05 B3 C2 A8 18 BB BA E7 E8 76 D1 AA 79 3E 0E"
+        "block_state": "D1 2C AC 12 43 27 22 4A 1C A3 18 4A CF 3D 5A 8A"
       },
       "8": {
-        "block_state": "DA E6 51 D2 C5 6E 07 13 C5 2E 00 E5 88 72 1B 7C"
+        "block_state": "77 1E 5C 39 AE 12 95 02 C6 78 61 CC E5 B9 AC E8"
       },
       "9": {
-        "block_state": "B2 59 C0 08 B0 6C A6 1E 3B 4A 97 F0 A4 24 B5 B1"
+        "block_state": "9A D7 25 02 23 2B 9F 22 D3 73 A5 5B 05 63 63 E8"
       },
       "10": {
-        "block_state": "D6 BC 84 DF A8 CD 69 27 AD 54 49 0F A4 C3 C9 F5"
+        "block_state": "AE 68 DD AF 9C 00 E8 5F BB B6 66 D5 ED 28 C3 29"
       }
     },
-    "final_ciphertext": "D6BC84DFA8CD6927AD54490FA4C3C9F5"
+    "final_ciphertext": "AE68DDAF9C00E85FBBB666D5ED28C329"
   },
   {
     "task": "Encrypting Ciphertext after 2 Bit Changes in Key (SKAC) - Two 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "12CCE015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E1571C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "27 D7 FE 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 36 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "35 66 84 4D BE EF 26 F1 4F 16 4D 1B BE 82 BF 7E"
+        "block_state": "A2 1F 1B C8 1E C7 FF 3F D1 E8 E8 CA 5C D0 2A 9C"
       },
       "2": {
-        "block_state": "62 EB 8D 3B A0 39 76 98 4E DC E7 2D 4C 00 95 CB"
+        "block_state": "A3 0C C3 A1 16 03 AF DF F9 3F 52 B4 4B 60 E9 84"
       },
       "3": {
-        "block_state": "84 D3 B7 69 31 6C A3 9F C5 71 A6 BB B1 2C 4E DA"
+        "block_state": "17 0C B8 40 A5 92 C4 A1 A5 9F F6 CD 21 FC BA 88"
       },
       "4": {
-        "block_state": "09 7C 1A 29 3A AD 22 F2 14 F9 7A 39 40 2A 80 86"
+        "block_state": "91 64 FE C6 22 82 3B 03 6B 8D 6C 22 1A 5B 3A CF"
       },
       "5": {
-        "block_state": "4B 79 60 DA 37 87 F3 45 A6 1E CD 3D 74 0E 00 BC"
+        "block_state": "BA 14 76 9D 07 E8 DD 7D 6E 38 3D 18 B3 CA D6 DC"
       },
       "6": {
-        "block_state": "DB 95 9E BE 3E FA BC C1 F5 5B E0 66 E6 79 23 F5"
+        "block_state": "81 A5 0B 8F BC E9 A3 47 E9 25 6E A0 6C D2 4B C3"
       },
       "7": {
-        "block_state": "8F 1E 1D F8 99 51 24 6D A5 96 A2 29 DD 88 23 58"
+        "block_state": "A8 E4 55 60 E4 9B D6 32 4B 6A 8D A3 B7 DF 5B 6D"
       },
       "8": {
-        "block_state": "43 60 48 10 B3 25 DB 5F BB E7 93 05 16 AD 75 A2"
+        "block_state": "9E E2 EE AD CE 18 D0 0D D0 9E 82 98 32 3B 22 53"
       },
       "9": {
-        "block_state": "E0 F7 37 7D E1 25 48 B7 45 56 02 F6 0E 84 8E 08"
+        "block_state": "F0 6A 6D 48 11 B0 7A 33 EE 20 EA 81 33 B5 D0 57"
       },
       "10": {
-        "block_state": "8A 54 7B E6 58 D7 C0 AF 7D 8D D0 68 81 79 D5 FD"
+        "block_state": "31 9C F7 FD 38 DA 63 E8 5E 98 65 17 45 24 C2 8E"
       }
     },
-    "final_ciphertext": "8A547BE658D7C0AF7D8DD0688179D5FD"
+    "final_ciphertext": "319CF7FD38DA63E85E9865174524C28E"
   },
   {
     "task": "Encrypting Ciphertext after 3 Bit Changes in Key (SKAC) - Three 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13CCE015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0571C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 D7 FE 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 26 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 5D BF 00 BF EF 26 F1 4E 16 4D 1B BF 82 BF 7E"
+        "block_state": "A2 0F 1B C8 1E D7 FF 3F D1 F8 E8 CA 51 3F D8 6E"
       },
       "2": {
-        "block_state": "0C 51 37 0F 77 1F 4B 93 55 8E E2 7D 9A 58 4C A4"
+        "block_state": "2C D6 C8 EB 6A 3B 66 81 7B 25 57 B1 2A 8C C4 84"
       },
       "3": {
-        "block_state": "1A 7A F5 06 37 CD AE 0F 3E 78 7A D5 6C 6C A5 8F"
+        "block_state": "87 A3 EC FE 28 8E B9 7A D0 97 C0 A2 9A 21 BF 4B"
       },
       "4": {
-        "block_state": "1F 42 A7 8F 1E 1C 93 F5 BD EC 1B 2A B3 2E 43 AE"
+        "block_state": "BC 5B 40 45 70 BB 09 85 1A 74 56 6D 5A B4 F0 AB"
       },
       "5": {
-        "block_state": "93 AA 9F 44 BF 6F A4 7F C4 64 CF 52 CF 34 C4 96"
+        "block_state": "FD F8 EC 88 04 50 BD BD 56 86 79 A1 49 82 87 24"
       },
       "6": {
-        "block_state": "92 0C 02 F3 61 F8 35 3F 73 BF A2 70 9B BE C0 48"
+        "block_state": "9F A7 EC A7 4B FA C6 93 48 70 44 52 15 A0 71 1C"
       },
       "7": {
-        "block_state": "2C CD 6A B8 C0 72 12 7A 2E 46 BB 69 04 CD B1 0E"
+        "block_state": "59 41 12 2A DE BF 3F 93 92 C4 C1 DF 15 5B 54 A9"
       },
       "8": {
-        "block_state": "71 B8 BF 4B 9D B3 F5 58 1E 7C 3C 54 99 14 88 7F"
+        "block_state": "45 62 9C AA 0F 4E D0 FC 0B 97 AE 10 FB 0E 85 02"
       },
       "9": {
-        "block_state": "68 12 16 86 F8 97 41 CD E8 12 B5 21 44 E4 F8 9D"
+        "block_state": "ED 6C CD 5D 53 81 47 3A 12 6B A1 1D B1 95 41 12"
       },
       "10": {
-        "block_state": "E6 AA 5E BE E1 E6 98 22 40 BB 0D 4A 31 D8 04 74"
+        "block_state": "C3 93 45 8F 7C 12 97 F6 94 83 E4 54 65 76 B8 26"
       }
     },
-    "final_ciphertext": "E6AA5EBEE1E6982240BB0D4A31D80474"
+    "final_ciphertext": "C393458F7C1297F69483E4546576B826"
   },
   {
     "task": "Encrypting Ciphertext after 4 Bit Changes in Key (SKAC) - Four 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DCE015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0471C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C7 FE 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 34 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4D BF 00 BF FF 26 F1 4E 06 4D 1B FC 19 77 B6"
+        "block_state": "A2 0E 1B C8 1E D6 FF 3F D1 F9 E8 CA 1C 48 E3 55"
       },
       "2": {
-        "block_state": "7B 75 22 A7 78 53 82 46 8D 0B 25 BA 91 A5 5B D8"
+        "block_state": "BD 5F 95 D5 88 00 5E 29 F3 6A 70 96 2D 60 54 8E"
       },
       "3": {
-        "block_state": "CD 35 2A AD C9 EA 8B A9 D6 9C 34 54 61 3D 96 35"
+        "block_state": "A4 E8 B8 E5 2E 9D 1F E4 C5 3C 27 E8 98 8B 85 EF"
       },
       "4": {
-        "block_state": "C2 81 E0 8C D0 C4 5D 27 0A E6 13 C8 F8 5A B5 A7"
+        "block_state": "32 7C C2 4F C3 A0 2F B2 E7 77 12 12 22 73 93 EC"
       },
       "5": {
-        "block_state": "39 A7 5F 42 A3 96 5A D3 E3 AC 8B 13 6A D8 E4 48"
+        "block_state": "5A 94 7C 72 E9 E1 20 C5 B0 7A 2D 8E 89 2E AF 9F"
       },
       "6": {
-        "block_state": "CC 94 15 A1 AE ED 9F F0 A6 EE 39 79 F5 B2 CA 36"
+        "block_state": "08 45 9E 87 E6 07 3C 5F BD DD E8 F7 48 9D 72 5B"
       },
       "7": {
-        "block_state": "83 E8 1A F8 47 69 FF 29 E0 4F C5 0F 2E AC 37 99"
+        "block_state": "AF 45 3D AC A7 D6 92 A8 F0 CC F3 63 62 BD 6B 90"
       },
       "8": {
-        "block_state": "6D FB B3 56 4B D5 9D A0 0E 70 65 93 3E 6E 3D DD"
+        "block_state": "D8 01 58 08 62 34 48 DF A3 E5 67 46 75 17 EC 11"
       },
       "9": {
-        "block_state": "AE 30 FA 0C 1B 47 36 99 01 A7 39 5E 1D D2 B3 41"
+        "block_state": "03 5F 9F 72 C6 8C C7 F7 27 11 76 CD 5D 42 EA 70"
       },
       "10": {
-        "block_state": "84 01 E6 BD CC 73 CB 98 64 E4 67 19 4D 15 82 D1"
+        "block_state": "9E FF E3 8E 56 EF 3F FA E2 81 82 BC 92 E9 DE 3F"
       }
     },
-    "final_ciphertext": "8401E6BDCC73CB9864E467194D1582D1"
+    "final_ciphertext": "9EFFE38E56EF3FFAE28182BC92E9DE3F"
   },
   {
     "task": "Encrypting Ciphertext after 5 Bit Changes in Key (SKAC) - Five 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDE015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0461C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 FE 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 24 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C BF 00 BF FE 26 F1 4E 07 4D 1B 6A FC 05 C4"
+        "block_state": "A2 0E 0B C8 1E D6 EF 3F FF 8B A4 E4 1C 48 F3 55"
       },
       "2": {
-        "block_state": "A0 67 79 AE 66 A5 0F 72 44 C2 41 DE CE 98 23 DF"
+        "block_state": "6F 00 3A 07 63 45 C2 91 27 E7 5B 6A F9 0F FA 7D"
       },
       "3": {
-        "block_state": "54 18 79 3D 79 E1 E7 23 C0 2F 56 B5 D1 41 6E E5"
+        "block_state": "29 4C 96 3A 91 44 ED A9 88 59 63 F4 B1 9C 3F C2"
       },
       "4": {
-        "block_state": "E1 4C 46 02 98 81 F2 21 C3 F9 85 60 50 E8 CE AC"
+        "block_state": "58 8B 00 97 63 06 8B 63 F0 6D A5 AE 59 02 F2 60"
       },
       "5": {
-        "block_state": "EA 22 CD 3F BB EF F2 9C 94 D8 05 34 DC 7C 0A EE"
+        "block_state": "38 BE DE BF EA 4E 41 25 19 8F CD F1 4B 79 3E 28"
       },
       "6": {
-        "block_state": "C7 8F 31 92 EE BD A4 87 5E 81 4C 44 39 8F 40 93"
+        "block_state": "22 F6 D3 4A AC 26 59 77 DD 8A 35 01 63 91 51 B4"
       },
       "7": {
-        "block_state": "D6 3F 62 C7 A8 87 6A CB 16 99 6C 72 11 FA 41 12"
+        "block_state": "0E DE B2 74 00 C5 90 3E A3 A0 03 73 78 38 92 54"
       },
       "8": {
-        "block_state": "66 90 C6 20 68 CF 2A 60 34 17 A5 B7 48 10 0D 85"
+        "block_state": "B2 56 35 A8 C9 EA B9 68 40 D9 2C 31 97 E2 4B F4"
       },
       "9": {
-        "block_state": "EA 62 0F 7D E2 3A 90 CB 6A 21 39 7C B9 90 CE 44"
+        "block_state": "CF E9 CB F2 9B 4D 82 00 BE 06 A1 9A A2 47 AF A7"
       },
       "10": {
-        "block_state": "F2 FE F9 2B EE D2 32 99 0F EE 3C E8 AA BB E7 99"
+        "block_state": "7C 41 C0 E8 F6 3B C1 58 80 34 6F B7 E4 01 0B 3A"
       }
     },
-    "final_ciphertext": "F2FEF92BEED232990FEE3CE8AABBE799"
+    "final_ciphertext": "7C41C0E8F63BC15880346FB7E4010B3A"
   },
   {
     "task": "Encrypting Ciphertext after 6 Bit Changes in Key (SKAC) - Six 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDF015FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0460C947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 EE 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 25 AE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C AF 00 BF FE 36 F1 DD A9 60 88 6A FC 15 C4"
+        "block_state": "A2 0E 0A C8 1E D6 EE 3F F6 90 B7 ED 1C 48 F2 55"
       },
       "2": {
-        "block_state": "93 08 0F 9D 6E E5 7D 56 F2 85 5D 86 57 C4 61 FB"
+        "block_state": "8F A2 E0 E7 00 F1 8C 48 C3 FE 96 DA 32 A8 4B F2"
       },
       "3": {
-        "block_state": "8A 60 A7 50 06 C8 B5 D8 A2 99 0D 7B FC 39 E9 00"
+        "block_state": "8C 1D 50 C6 99 6A 8F 09 BF 21 99 A1 BC 02 A1 A5"
       },
       "4": {
-        "block_state": "33 18 01 ED D2 63 55 D7 5F 22 92 1A 65 AB B8 FE"
+        "block_state": "41 FD 96 30 94 61 00 7E 1F 64 30 81 3F 49 12 93"
       },
       "5": {
-        "block_state": "EE 8F B7 1D 1F 18 DB 3B 88 49 3C 3A 70 9C 8F D9"
+        "block_state": "F9 DF 55 B0 93 25 1A 69 AE 5D DA 3F 21 1F 84 0D"
       },
       "6": {
-        "block_state": "0B 12 B3 A4 91 9E 94 1A E8 B0 6B D7 1F 1B A4 0A"
+        "block_state": "A1 75 5E 61 59 3B D6 38 00 53 09 51 5A F3 0A C4"
       },
       "7": {
-        "block_state": "CA 21 E7 B5 22 25 C1 8C 48 F9 F8 2B A6 EF C0 84"
+        "block_state": "7F 9D 69 82 84 5A 97 87 AE 4A 5C C3 09 32 9E 38"
       },
       "8": {
-        "block_state": "25 B7 8C FF 79 78 4B B7 F5 C4 B3 FE 57 82 1F B3"
+        "block_state": "6F 90 AD 7E 2E 0C A3 7D 91 93 95 99 7A 5B 86 E0"
       },
       "9": {
-        "block_state": "9A 15 40 97 25 92 EF 67 54 64 98 D2 AF F8 22 E4"
+        "block_state": "75 CC 9F EC AF 5B C7 53 F4 68 BD EE 1B 61 09 8E"
       },
       "10": {
-        "block_state": "6E FD 1B 15 49 A0 2A A2 2D 03 F5 72 85 84 58 3C"
+        "block_state": "7A 3C 6E 97 9B B6 B9 25 91 DC 4D 39 71 F3 DE AA"
       }
     },
-    "final_ciphertext": "6EFD1B1549A02AA22D03F5728584583C"
+    "final_ciphertext": "7A3C6E979BB6B92591DC4D3971F3DEAA"
   },
  {
     "task": "Encrypting Ciphertext after 7 Bit Changes in Key (SKAC) - Seven 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDF115FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0460D947D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 EF 8D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 25 BE CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C AE 00 BF FE 37 F1 2A AB 94 7F 6A FC 14 C4"
+        "block_state": "A2 0E 0A D8 54 9C 30 BB F6 90 B7 FD 1C 48 F2 45"
       },
       "2": {
-        "block_state": "61 C6 F1 6F 05 A1 91 44 27 DE 59 77 DE AB 7E 48"
+        "block_state": "65 60 90 E0 2D 2A AB B7 5C 61 D9 EF 1F DD E5 DC"
       },
       "3": {
-        "block_state": "01 92 8C D3 8B E1 F3 BE C6 2B 66 52 39 5F 1F 49"
+        "block_state": "96 C1 9F 6B 17 23 2B 1B 08 B1 04 62 CA 3D 27 7C"
       },
       "4": {
-        "block_state": "AA 96 29 7A BC 80 E0 5F C2 8A FB 26 79 7E 4D D3"
+        "block_state": "45 E2 B1 33 53 C7 7F 1A 28 40 BA 56 E9 FE 73 D5"
       },
       "5": {
-        "block_state": "E6 52 0F AE 99 0C 74 37 F7 2B AB 1B 92 6F 91 45"
+        "block_state": "FD 25 E5 5F 49 E2 41 05 5E 0B ED FD B4 82 86 13"
       },
       "6": {
-        "block_state": "6A F9 BF EC 3A 42 4F 05 96 C2 81 61 B2 81 EE 2E"
+        "block_state": "EB D0 2D 78 87 17 E0 26 BA AF 79 F8 42 98 02 96"
       },
       "7": {
-        "block_state": "3E B5 E8 E3 71 9F 4F 39 E6 F9 DA 79 0E A8 08 A9"
+        "block_state": "4E BF A2 ED C3 45 0A 65 36 B3 68 51 9D 5B 64 54"
       },
       "8": {
-        "block_state": "F5 24 10 B1 57 39 23 10 E2 45 F6 91 91 05 92 8D"
+        "block_state": "8B 73 0F 4C 52 8E CB 91 B9 D1 1D CC 68 7D 50 5D"
       },
       "9": {
-        "block_state": "2F FA CD E8 C9 CF F8 11 ED 60 88 AE 15 99 EC EF"
+        "block_state": "13 3B FE EE 3D C5 4F D4 CB 68 F3 DB A4 A1 A7 11"
       },
       "10": {
-        "block_state": "29 5A 6D 4D AB 51 77 5F 58 CE B5 75 A5 92 C6 6D"
+        "block_state": "DC 30 31 82 83 B6 CC C3 31 01 05 12 97 5A B4 3B"
       }
     },
-    "final_ciphertext": "295A6D4DAB51775F58CEB575A592C66D"
+    "final_ciphertext": "DC30318283B6CCC331010512975AB43B"
   },
  {
     "task": "Encrypting Ciphertext after 8 Bit Changes in Key (SKAC) - Eight 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDF105FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0460D847D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 EF 9D 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 25 BF CE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C AE 10 BC FD 32 E7 2A AB 94 6F 6A FC 14 D4"
+        "block_state": "A2 0E 0A D9 F2 3A C1 ED F6 90 B7 FC 1C 48 F2 44"
       },
       "2": {
-        "block_state": "1F 57 80 38 76 65 7E BA 12 EB 64 0D 1D 01 FB 05"
+        "block_state": "F2 A9 B6 55 30 D7 19 FF E3 DE E4 8B 87 BD CD 73"
       },
       "3": {
-        "block_state": "6F 94 FE 37 79 9C 5D 16 6D 24 ED EA 2A FA CB 40"
+        "block_state": "76 AA F4 98 C0 3E EA C9 F9 C5 85 7F 2E 40 B9 74"
       },
       "4": {
-        "block_state": "AA FB 23 29 4D 18 74 22 4F 23 14 51 70 17 C7 E8"
+        "block_state": "DC DB 3D 3F 44 DD D8 42 97 E4 63 18 98 EA 86 48"
       },
       "5": {
-        "block_state": "C3 06 E0 38 3C 47 61 C7 F9 4E F0 39 A8 1E 65 35"
+        "block_state": "F3 0C 00 6B 63 AB 9B 65 8A 6B 21 4B C8 4A A6 EC"
       },
       "6": {
-        "block_state": "48 59 0C AE EB 4C B0 C5 D1 62 E2 7E C2 E8 B3 D1"
+        "block_state": "C5 B9 93 01 A2 6F E7 32 3E EB 07 1C A0 21 39 BA"
       },
       "7": {
-        "block_state": "87 ED 06 7E 46 BC 5D FE 38 04 C1 70 A3 0D AA 96"
+        "block_state": "BD 32 67 62 97 BF 26 C1 BC C3 62 97 DC 1A 18 E9"
       },
       "8": {
-        "block_state": "54 7E 09 B0 38 4B 36 28 CC E2 79 B9 39 1B 0A E8"
+        "block_state": "DC 7D 23 FB 57 78 6B 28 C3 F0 DC 22 F1 01 73 27"
       },
       "9": {
-        "block_state": "37 0E 91 6D 77 99 73 63 77 98 0B 3E 88 29 9E 04"
+        "block_state": "AE B4 A7 73 BC 3B 6F CC C6 48 6C 26 5F DD 80 4A"
       },
       "10": {
-        "block_state": "E3 94 AD 76 C6 C7 9D F8 F8 85 A6 1A 38 14 27 3B"
+        "block_state": "C3 F7 E3 01 47 A1 D2 64 9A F2 6D C6 11 35 17 75"
       }
     },
-    "final_ciphertext": "E394AD76C6C79DF8F885A61A3814273B"
+    "final_ciphertext": "C3F7E30147A1D2649AF26DC611351775"
   },
   {
     "task": "Encrypting Ciphertext after 9 Bit Changes in Key (SKAC) - Nine 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDF104FE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0460D857D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 EF 9C 96 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 25 BF DE 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C AE 11 3C 7D A9 FD 2A AB 94 6E 6A FC 14 D5"
+        "block_state": "A2 0E 0A D9 D5 AC 57 4C E6 90 B7 FC 0C 48 F2 44"
       },
       "2": {
-        "block_state": "B2 51 CE 04 39 A3 10 A3 D2 2B 07 97 DA 3D 61 9B"
+        "block_state": "C1 8B A7 F3 2F 5D 93 CD 1C 6E AC 8B 70 BA E9 41"
       },
       "3": {
-        "block_state": "AA 7D E0 0B 10 36 B0 60 C0 A4 67 94 34 6C 21 43"
+        "block_state": "BD C0 9D 43 3D 3F 09 E4 D8 D2 61 53 83 D9 24 9E"
       },
       "4": {
-        "block_state": "54 54 4A 09 24 16 58 42 51 58 F9 D2 A0 08 5E D3"
+        "block_state": "EB 2B 9B 1E 7C AC 34 82 6D DE DA 63 BA 83 5D DA"
       },
       "5": {
-        "block_state": "38 63 64 A4 63 69 28 59 04 34 44 E8 3C 86 BC 99"
+        "block_state": "3D DB 10 5D BF 93 D8 CC 11 91 9F AA 19 71 54 BC"
       },
       "6": {
-        "block_state": "5D 66 8F 90 B7 04 5B 76 F2 95 B9 36 65 0D 6D EC"
+        "block_state": "8A C7 CE CD 67 72 F1 01 A2 DF CD 72 6D 13 89 53"
       },
       "7": {
-        "block_state": "B0 C6 01 C9 88 B1 A8 87 8A 18 CC 54 48 20 9C FF"
+        "block_state": "1B 42 3D F9 46 2F 30 AB 32 F6 D2 37 3D 7E B6 7B"
       },
       "8": {
-        "block_state": "98 3D ED 49 CC D3 2F E0 4F E3 A9 02 20 62 27 8D"
+        "block_state": "25 EE 87 A9 9A D9 B9 0D 04 55 A9 C4 58 04 F2 07"
       },
       "9": {
-        "block_state": "52 91 F7 23 18 C7 84 F5 12 74 0D 57 8F 2E AC B5"
+        "block_state": "B2 6B 35 27 94 D1 78 CC 81 BA 86 3B A9 68 44 F7"
       },
       "10": {
-        "block_state": "17 9D 38 92 F0 13 6E E2 C4 11 26 C4 8F 3E 9E D2"
+        "block_state": "09 B2 E4 FD A6 A1 E0 8E 3B 49 A7 6F AB C7 03 C9"
       }
     },
-    "final_ciphertext": "179D3892F0136EE2C41126C48F3E9ED2"
+    "final_ciphertext": "09B2E4FDA6A1E08E3B49A76FABC703C9"
   },
  {
     "task": "Encrypting Ciphertext after 10 Bit Changes in Key (SKAC) - Ten 4th Bit Positions [Starting from MSB]",
-    "plain_text": "351b1e9868acb846caa012d65a9f1a87",
-    "key": "13DDF104EE1F4F83A92B21F4C387A64",
+    "plain_text": "0123456789abcdeffedcba9876543210",
+    "key": "1E0460D856D9E8590CB7ADD6AF7F6798",
     "method": "AES",
     "round": {
       "0": {
-        "block_state": "26 C6 EF 9C 86 B3 F7 C5 63 8B 33 22 99 18 BC C7"
+        "block_state": "1F 27 25 BF DF 72 25 B6 F2 6B 17 4E D9 2B 55 88"
       },
       "1": {
-        "block_state": "42 4C AE 11 9F A9 7D 9A 3A AB 94 6E 7A FC 14 D5"
+        "block_state": "A2 0E 0A D9 C9 2F D4 D2 E7 90 B7 FC 0D 48 F2 44"
       },
       "2": {
-        "block_state": "C6 09 E2 A5 49 93 20 7E F4 A2 4D 76 4D 91 E1 49"
+        "block_state": "56 98 23 62 89 83 4D A1 B4 E8 09 93 30 A6 E6 3C"
       },
       "3": {
-        "block_state": "DF 0C 2E 31 F7 5F DD B3 DF 35 5B DC E1 54 D2 D5"
+        "block_state": "37 91 A5 5A 78 89 A4 44 65 79 0C 76 7A DA 9E 50"
       },
       "4": {
-        "block_state": "D0 9A 28 11 B5 90 EE 66 E4 FF 18 F8 FA 91 70 9C"
+        "block_state": "14 7D 4D EF CC B0 DD 4C B9 CE 9C 65 06 AC 58 42"
       },
       "5": {
-        "block_state": "F7 B8 7A 26 2A 7E 9D 88 C0 F6 C7 56 22 C6 6A FC"
+        "block_state": "3F B7 DF D8 6E 32 67 7C C2 51 CF EA 04 3A A9 AA"
       },
       "6": {
-        "block_state": "1A 1E 7B 0F 22 0C 7C CC FB 0D 39 5B E9 D4 28 0F"
+        "block_state": "9F 22 AF F0 02 04 40 1A AE 93 0C 01 A0 09 11 DB"
       },
       "7": {
-        "block_state": "9B 65 D9 77 64 F0 50 66 98 3E F1 5A 38 B6 8D 6C"
+        "block_state": "A3 61 D8 EC 26 0D ED 5B 43 03 82 DF F5 D7 44 79"
       },
       "8": {
-        "block_state": "01 A1 52 D1 CD CC CA 7C 42 DD 9B C4 95 F8 13 3D"
+        "block_state": "2B EB 4B B4 EC FD 54 63 77 4F 52 7A CA FC 74 C5"
       },
       "9": {
-        "block_state": "6B 18 F6 C7 29 96 C1 E9 C2 DE F4 F3 82 80 5B AB"
+        "block_state": "EE B7 DC A2 03 AA D6 71 77 3F CE 8C CB 3D 26 F5"
       },
       "10": {
-        "block_state": "1B 0A 5D AB 92 8C DE FA 5B 3C 0C C4 85 12 B9 7C"
+        "block_state": "D3 FD 75 D6 8C 73 26 25 07 A5 B7 DA 14 11 49 12"
       }
     },
-    "final_ciphertext": "1B0A5DAB928CDEFA5B3C0CC48512B97C"
+    "final_ciphertext": "D3FD75D68C73262507A5B7DA14114912"
   }
 ]
